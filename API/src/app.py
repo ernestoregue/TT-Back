@@ -91,7 +91,7 @@ def update_place(id):
 def add_place():
     try:
         cur = db.connection.cursor()
-        sql = "INSERT INTO place (place_name, place_hashtag, place_city, place_comment, place_subjectivity, place_polarity, place_sentiment, place_latitude, place_longitude) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')".format(request.json['name'], request.json['hashtag'], request.json['city'], request.json['comment'], request.json['subjetivity'], request.json['polarity'], request.json['sentiment'], request.json['latitude'], request.json['longitude'])
+        sql = "INSERT INTO place (place_name, place_hashtag, place_city, place_comment, place_subjectivity, place_polarity, place_sentiment, place_latitude, place_longitude) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')".format(request.json['name'], request.json['hashtag'], request.json['city'], request.json['comment'], request.json['subjectivity'], request.json['polarity'], request.json['sentiment'], request.json['latitude'], request.json['longitude'])
         cur.execute(sql)
         db.connection.commit()
         return jsonify({'Mensaje': "Lugar agregado correctamente"})

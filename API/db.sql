@@ -24,7 +24,7 @@ SELECT * FROM place;
 INSERT INTO place (place_name, place_hashtag, place_city,place_comment, place_subjectivity, place_polarity, place_sentiment, place_latitude, place_longitude) 
 values (
    'Tequisquiapan', 
-   '#ttequisquiapan', 
+   'tttequisquiapan', 
    'Tequisquiapan',
    'Me encanta muchisimo este lugar.', 
    0.5, 
