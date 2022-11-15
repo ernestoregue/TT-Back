@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d5fb95b0-9021-45d4-9b5a-0698ca85e88a/AppServices/subscriptions/d5fb95b0-9021-45d4-9b5a-0698ca85e88a/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/transitus",
+    "appService.deploySubpath": "."
+}
